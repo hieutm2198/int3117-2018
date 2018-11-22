@@ -7,6 +7,8 @@ public class ExponentCalculator {
 			} else {
 				result = 0.0;
 			}
+		} else if (base == 1) {
+			result = 1.0;
 		} else {
 			if(exp == 0) {
 				result = 1.0;
