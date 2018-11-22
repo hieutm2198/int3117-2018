@@ -1,5 +1,5 @@
 public class ExponentCalculator {
-	public static double calculate(double base, double exp) {
+	public static double calculate(double base, int exp) {
 		double result = 0.0;
 		if(base == 0) {
 			if(exp == 0) {
